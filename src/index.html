@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -10,8 +10,69 @@
 <body>
   <app-root></app-root>
   <app-home></app-home>
-  <app-cats></app-cats>
   <app-menu></app-menu>
+  <app-cats></app-cats>
   <app-work-booth></app-work-booth>
 </body>
-</html>
+</html> -->
+
+<!-- working version of the first iteration -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teacatffé - Relax or Work with our cats and some tea.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="flex-nav">
+      <div class="container">
+        <div class="grid">
+          <div class="column-xs-9 column-md-8">
+            <p id="logo">Teacatffé<span id="highlight">.</span></p>
+          </div>
+          <div class="column-xs-3 column-md-4">
+            <a href="#" class="toggle-nav">Menu <i class="ion-navicon-round"></i></a>
+            <ul>
+              <li><a href="#">Our cats</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Work booths</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Welcome to Teacatffé!</h1>
+      <p>Teacatffé is a cozy tea house where you can work, relax, and interact with cats.</p>
+      <img src="https://www.caffeaiello.it/wp-content/uploads/2022/10/cat-cafe.jpg" alt="Cat café" style="border-radius: 5px;">
+    </div>
+    <div class="container">
+      <h1>Meet our furry residents</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://external-preview.redd.it/8TsHrwvz99dS3qfYoCBHzi-lQ6Is6JciY9Zotoh3RRE.jpg?width=640&crop=smart&auto=webp&s=16969018d431b51416aad7bc28b7767de3548a7e" alt="Cat 1" style="border-radius: 5px;">
+          <h2>Rocco</h2>
+          <p>Meet the runt of the pack, Rocco. Infinite energy, infinite fun.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ6oKVsPglOr65EdrurtsRpG9tlak5BasS1Q&usqp=CAU" alt="Cat 2" style="border-radius: 5px;">
+          <h2>Nacho</h2>
+          <p> If you like lazy chonks, this is your guy. He likes to sleep, and eat, and then sleep some more.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="https://www.wlns.com/wp-content/uploads/sites/50/2021/02/cat-coffee.png?w=1280" alt="Cat 3" style="border-radius: 5px;">
+          <h2>Blue</h2>
+          <p>Blue is our oldest resident. He is docile to humans, but runs the pack and is the alpha cat in the house.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="workbooth">
+      <h1>Relaxing work booths</h1>
+      <img src="https://www.globalgovernmentforum.com/wp-content/uploads/Someone-working-remotely-Photo-Firmbee-from-Pixabay.jpg" alt="Work Booth" class="work-booth-image" style="max-width:fit-content" style="border-radius: 5px;">
+      <p>Our tea house offers a relaxing environment for remote workers. Our work booths are designed to provide a quiet and productive space for work. Our cats are there to keep you company and help you destress.</p>
+    </div>
+  </body>
